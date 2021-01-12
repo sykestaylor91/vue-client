@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noEmit": true,
+        //"noImplicitAny": false,
+        //"noEmitOnError": true,
+        "removeComments": false,
+        //"sourceMap": true,
+        "target": "es2015"
+    },
+    "exclude": [
+        "node_modules",
+        "wwwroot",
+        "VueApp/assets/js"
+    ]
+}

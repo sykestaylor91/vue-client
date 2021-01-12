@@ -1,0 +1,63 @@
+﻿{
+  "timeZoneId": "America/New_York",
+  "messages": [
+    {
+      "date": "2012-04-23T18:25:43.511Z",
+      "source": "SystemNotifications",
+      "read": "frue",
+      "expires": "2017-04-23T18:25:43.511Z",
+      "message": "Sample message #1"
+    },
+    {
+      "date": "2012-04-24T18:29:22.511Z",
+      "source": "SystemNotifications",
+      "read": "false",
+      "expires": "2017-04-24T18:29:22.511Z",
+      "message": "Sample message #2"
+    }
+  ],
+  "worklist": {
+    "sortColumnName": "AccessionID",
+    "sortDirection": "Ascending",
+    "columns": [
+      {
+        "columnName": "AccessionID",
+        "visible": "true",
+        "position": "1"
+      },
+      {
+        "columnName": "CaseNumber",
+        "visible": "true",
+        "position": "2"
+      },
+      {
+        "columnName": "PatientName",
+        "visible": "true",
+        "position": "3"
+      },
+      {
+        "columnName": "Doctor1",
+        "visible": "true",
+        "position": "4"
+      }
+    ],
+    "filters": [
+      {
+        "set": "1",
+        "clauses": [
+          {
+            "operator": "&",
+            "column": "PatientName",
+            "type": "contains",
+            "value": "wil"
+          },
+          {
+            "operator": "|",
+            "column": "PatientName",
+            "type": "contains",
+            "value": "wil"
+          }
+        ]
+    ]
+  }
+}
